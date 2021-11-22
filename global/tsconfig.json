@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "baseUrl": ".",
+      "lib": ["esnext"],
+      "composite": true,
+      "outDir": "lib",
+      "rootDir": "",
+      "paths": {
+        "~/*": ["*"],
+      },
+    },
+    "include": ["**/*.ts"]
+  }
+  
